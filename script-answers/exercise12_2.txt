@@ -1,0 +1,14 @@
+Script started on Sun Sep 10 16:34:58 2023
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ docker container run -it ubuntu bash
+[?2004h]0;root@fce087ddd983: /root@fce087ddd983:/# mkdir [7m/usr/src/app[27m/usr/src/app
+[?2004l[?2004h]0;root@fce087ddd983: /root@fce087ddd983:/# touch [7m/usr/src/app/index.js[27m/usr/src/app/index.js
+[?2004l[?2004h]0;root@fce087ddd983: /root@fce087ddd983:/# [Kexit
+[?2004lexit
+bash-3.2$ exit
+exit
+
+Script done on Sun Sep 10 16:35:49 2023
