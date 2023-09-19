@@ -1,0 +1,24 @@
+Script started on Tue Sep 19 23:03:16 2023
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ exitdocker exec -it todo-backend-redis-1 bash
+[?2004hroot@8de1e2d3d359:/data# exitredis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GETSET numberOfTodos 1[0;90;49m value[0m[38C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GETSET numberOfTodos 9001[0;90;49m value[0m[41C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "numberOfTodos"
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GETSET numberOfTodos 1[0;90;49m value[0m[38C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GETSET numberOfTodos 9001[0;90;49m value[0m[41C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GET numberOfTodos[33C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GETSET numberOfTodos 1[0;90;49m value[0m[38C[0K127.0.0.1:6379> GETSET numberOfTodos [0;90;49mvalue[0m[37C[0K127.0.0.1:6379> GETSET numberOfTodos 9[0;90;49m value[0m[38C[0K127.0.0.1:6379> GETSET numberOfTodos 90[0;90;49m value[0m[39C[0K127.0.0.1:6379> GETSET numberOfTodos 900[0;90;49m value[0m[40C[0K127.0.0.1:6379> GETSET numberOfTodos 9001[0;90;49m value[0m[41C[0K127.0.0.1:6379> GETSET numberOfTodos 9001[41C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> GETSET numberOfTodos 9001[0;90;49m value[0m[41C[0K127.0.0.1:6379> GET numberOfTodos[0;90;49m key[0m[33C[0K127.0.0.1:6379> GET numberOfTodos[33C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL n[0;90;49m key [key ...][0m[21C[0K127.0.0.1:6379> DEL nu[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6379> DEL num[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6379> DEL numb[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6379> DEL numbe[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> DEL number[0;90;49m key [key ...][0m[26C[0K127.0.0.1:6379> DEL numberO[0;90;49m key [key ...][0m[27C[0K127.0.0.1:6379> DEL numberOf[0;90;49m key [key ...][0m[28C[0K127.0.0.1:6379> DEL numberOfT[0;90;49m key [key ...][0m[29C[0K127.0.0.1:6379> DEL numberOfTo[0;90;49m key [key ...][0m[30C[0K127.0.0.1:6379> DEL numberOfTod[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL numberOfTodo[0;90;49m key [key ...][0m[32C[0K127.0.0.1:6379> DEL numberOfTodos[0;90;49m key [key ...][0m[33C[0K127.0.0.1:6379> DEL numberOfTodos[33C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[?2004hroot@8de1e2d3d359:/data# exit
+[?2004lexit
+bash-3.2$ exit
+exit
+
+Script done on Tue Sep 19 23:09:32 2023
