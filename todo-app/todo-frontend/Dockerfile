@@ -1,15 +1,17 @@
-FROM node:16
+# Stage 1: Base
+FROM node:16 AS base
 
 WORKDIR /usr/src/app
 
 COPY . .
 
-ENV REACT_APP_BACKEND_URL=//localhost:3000
-
 RUN npm ci
 
-RUN npm run build
+RUN CI=true npm test
 
-RUN npm install -g serve
+RUN REACT_APP_BACKEND_URL=//localhost:3000 npm run build
 
-CMD ["serve", "build"]
+# Stage 2: Final
+FROM nginx:1.20-alpine
+
+COPY --from=base /usr/src/app/build /usr/share/nginx/html
