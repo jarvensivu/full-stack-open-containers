@@ -9,7 +9,7 @@ RUN npm ci
 
 RUN CI=true npm test
 
-RUN REACT_APP_BACKEND_URL=//localhost:3000 npm run build
+RUN REACT_APP_BACKEND_URL=//localhost:8080/api/ npm run build
 
 # Stage 2: Final
 FROM nginx:1.20-alpine
