@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  frontend:
+    image: patientor-front
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:80
+    container_name: patientor-front
+    depends_on:
+      - backend
+  backend:
+    image: patientor-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3001
+    container_name: patientor-backend-dev
